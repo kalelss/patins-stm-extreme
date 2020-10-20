@@ -1,0 +1,169 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+body {
+    background-color: #8cd7ff;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.border-item {
+    border: 1px solid black;
+}
+
+.infos-topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.infos-topo ul {
+    list-style: none;
+    display: flex;
+}
+
+.infos-topo ul li {
+    margin: 10px;
+    
+}
+
+.infos-topo ul a {
+    text-decoration: none;
+}
+
+.infos-topo img {
+    width: 150px;
+    height: 150px;
+    margin-left: 20px;
+}
+
+.infos-topo .social img {
+    width: 40px;
+    height: 40px;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.nav ul li {
+    margin: 10px 20px;
+}
+
+.nav ul a {
+    color: #FFF;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.nav nav {
+    background-color: #0C4784;
+}
+
+.banner img {
+    padding-top: 10px;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.content p {
+    color: rgb(54, 54, 54);
+    font-size: 12px;
+    font-weight: 700;
+    margin: 0px 15px 30px 15px;
+    text-align: justify;
+}
+
+.content h2 {
+    color: rgb(50, 50, 50);
+    margin-bottom: 10px;
+    font-size: 25px;
+    padding-left: 15px;
+}
+
+.content div a {
+    color: rgb(54, 54, 54);
+    font-size: 11px;
+    margin: 0px 15px 15px 15px;
+}
+
+.content ul {
+    list-style: none;
+}
+
+.content ul a {
+    text-decoration: none;
+}
+
+.content .imagem-hist{
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.content .imagem-hist img {
+    border-radius: 15px;
+}
+
+.social-media {
+    margin-bottom: 20px;
+    box-shadow: 1px 10px 10px grey;
+}
+
+.patrocinio {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    /* box-shadow: 1px 10px 10px grey; */
+}
+
+.patrocinio div {
+    display: flex;
+    border: 2px solid #5a7915;
+    border-radius: 10px;
+    justify-content: center;
+    padding: 20px 0px;
+    margin-bottom: 10px;
+}
+
+.h1 {
+    color: white;
+    font-weight: 800;
+    padding: 10px 0px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: #0C4784;
+}
+
+.lateralBar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.eventos ul {
+    list-style: none;
+}
+
+.eventos ul a {
+    color: rgb(54, 54, 54);
+    text-decoration: none;
+}
+
+.eventos ul li {
+    padding-bottom: 10px;
+}

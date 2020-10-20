@@ -1,0 +1,17 @@
+.topo {grid-area: topo;}
+.body-content {grid-area: body-content;}
+.lateralBar{grid-area: lateralBar;}
+.infos{grid-area: infos;}
+.rodape {grid-area: rodape;}
+
+.container {
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 68% 32%;
+    grid-template-areas: 
+        "topo topo"
+        "body-content lateralBar"
+        "rodape rodape"
+    ;
+    gap: 10px;
+}
