@@ -2,16 +2,18 @@
 .body-content {grid-area: body-content;}
 .lateralBar{grid-area: lateralBar;}
 .infos{grid-area: infos;}
+.videos{grid-area: videos;}
 .rodape {grid-area: rodape;}
 
 .container {
     display: grid;
     margin: 0 auto;
-    grid-template-columns: 68% 32%;
+    grid-template-columns: 72% 28%;
     grid-template-areas: 
         "topo topo"
         "body-content lateralBar"
+        "videos videos"
         "rodape rodape"
     ;
-    gap: 10px;
+    gap: 15px;
 }
