@@ -191,7 +191,7 @@ body {
 
 .patrocinadores {
     display: flex;
-    margin-top: 30px;
+    margin-top: 60px;
 }
 
 .patrocinadores div {
@@ -226,13 +226,11 @@ body {
     background-color: #8cd7ff;
 }
 
-.videos {
-    display: flex;
-    max-width: 1260px;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.videos div {
-    margin-bottom: 30px;
+.grid-videos h2{
+    /* color: rgb(54, 54, 54); */
+    color: #5a7915;
+    font-size: 13px; 
+    text-align: center; 
+    margin-top: 10px;
+    /* background-color: #0C4784; */
 }

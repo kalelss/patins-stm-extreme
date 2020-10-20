@@ -17,3 +17,20 @@
     ;
     gap: 15px;
 }
+.titulo {grid-area: titulo;}
+.video01 {grid-area: video01;}
+.video02 {grid-area: video02;}
+.video03 {grid-area: video03;}
+.video04 {grid-area: video04;}
+
+
+.grid-videos {
+    display: grid;
+    grid-template-areas: 
+        "titulo titulo"
+        "video01 video02"
+        "video03 video04"
+    ;
+    gap: 20px 53px;
+    /* padding-left: 40px; */
+}
