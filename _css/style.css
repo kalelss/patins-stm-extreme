@@ -57,6 +57,10 @@ body {
     height: 40px;
 }
 
+.nav nav {
+    border-radius: 10px;
+}
+
 .nav ul {
     display: flex;
     list-style: none;
@@ -86,6 +90,10 @@ body {
     height: 100%;
 }
 
+.content {
+    margin-bottom: 30px;
+}
+
 .content p {
     color: rgb(54, 54, 54);
     font-size: 12px;
@@ -95,14 +103,13 @@ body {
 }
 
 .content h2 {
-    /* color: rgb(50, 50, 50); */
     color: #5a7915;
     margin-bottom: 10px;
     font-size: 25px;
     padding-left: 15px;
 }
 
-.content div a {
+.content .fontes a {
     color: rgb(54, 54, 54);
     font-size: 11px;
     margin: 0px 15px 15px 15px;
@@ -128,14 +135,13 @@ body {
 
 .social-media {
     margin-bottom: 20px;
-    box-shadow: 1px 10px 10px grey;
 }
 
 .patrocinio {
     margin-top: 20px;
     display: flex;
     flex-direction: column;
-    /* box-shadow: 1px 10px 10px grey; */
+    flex-wrap: wrap;
 }
 
 .patrocinio div {
@@ -149,7 +155,24 @@ body {
     height: auto;
 }
 
-.eventos {
+
+.h1 {
+    color: white;
+    font-weight: 800;
+    padding: 10px 0px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: #0C4784;
+    border-radius: 10px;
+}
+
+.lateralBar {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+}
+
+.list-eventos {
     display: flex;
     border: 2px solid #5a7915;
     border-radius: 10px;
@@ -160,27 +183,11 @@ body {
     height: auto;
 }
 
-.h1 {
-    color: white;
-    font-weight: 800;
-    padding: 10px 0px;
-    margin-bottom: 10px;
-    text-align: center;
-    background-color: #0C4784;
-}
-
-.lateralBar {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
 .eventos ul {
     list-style: none;
 }
 
 .eventos ul a {
-    /* color: rgb(54, 54, 54); */
     color: #5a7915;
     text-decoration: none;
 }
@@ -189,9 +196,9 @@ body {
     padding-bottom: 10px;
 }
 
-.patrocinadores {
+.patrocinadores{
     display: flex;
-    margin-top: 60px;
+    margin-top: 30px;
 }
 
 .patrocinadores div {
@@ -199,7 +206,6 @@ body {
 }
 
 .patrocinadores h1 {
-    /* color: rgb(54, 54, 54); */
     color: #5a7915;
     font-size: 35px;
     font-weight: 900;
@@ -227,10 +233,38 @@ body {
 }
 
 .grid-videos h2{
-    /* color: rgb(54, 54, 54); */
     color: #5a7915;
     font-size: 13px; 
     text-align: center; 
     margin-top: 10px;
-    /* background-color: #0C4784; */
+}
+
+.rodape .copy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0px;
+    border-radius: 10px;
+    padding: 10px 40px; 
+    background-color: #0C4784;
+}
+
+.copy p, .copy a {
+    color:  #FFF;
+    font-weight: 800;
+}
+
+.copy .social ul {
+    display: flex;
+    list-style: none;
+    padding-left: 10px;
+}
+
+.copy .social ul li {
+    padding-left: 20px;
+}
+
+.copy .social img {
+    width: 25px;
+    height: 25px;
 }

@@ -1,0 +1,87 @@
+.contato-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contato-infos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.telefone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-contato ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.telefone p{
+    color: rgb(54, 54, 54);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.social-contato ul li {
+    padding-left: 17px;
+    margin-bottom: 20px;
+}
+
+.social-contato img {
+    width: 35px;
+    height: 35px;
+}
+
+#enviar {
+    font-size: 17px;
+    background-color: #0C4784;
+    color: #FFF;
+    font-weight: bold;
+    border-radius: 15px; 
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #CCC;
+}
+
+#enviar:hover {
+    background-color: #AAA;
+}
+
+label {
+    display: block;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.input-data, .descricao{
+    margin-top: 5px;
+    font-size: 15px;
+    padding: 8px;
+    width: 500px;
+    outline: 0;
+    border: 1px solid #CCC;
+    border-radius: 10px;
+}
+
+.descricao {
+    height: 150px;
+    text-align: justify;
+    padding: 10px;
+    resize: none;
+}
+
+.form-cad {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
